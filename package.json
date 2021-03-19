@@ -23,7 +23,6 @@
     "@angular/router": "~10.1.2",
     "bootstrap": "^4.6.0",
     "font-awesome": "^4.7.0",
-    "intl-input-phone": "0.0.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
