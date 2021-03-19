@@ -1,1 +1,14 @@
-<!-- <intl-input-phone></intl-input-phone> -->
+<form #form="ngForm">
+  <intl-tel-input
+    [label]="'Please enter your phone number'"
+    [name]="'my-name'"
+    [cssClass]="'form-control'"
+    [labelCssClass]="'col-sm-2 col-form-label'"
+    [required]="true"
+    [options]="{
+      preferredCountries: ['ch'],
+      localizedCountries: { ch: 'Suisse' }
+    }"
+    [onlyLocalized]="true"
+  ></intl-tel-input>
+</form>
