@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
 import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {
@@ -29,17 +28,6 @@ const routes: Routes = [
         path: '',
         loadChildren: () =>
           import('./login/login.module').then((m) => m.LoginModule),
-      },
-    ],
-  },
-  {
-    path: 'register',
-    component: RegisterComponent,
-    children: [
-      {
-        path: '',
-        loadChildren: () =>
-          import('./register/register.module').then((m) => m.RegisterModule),
       },
     ],
   },

@@ -26,11 +26,11 @@
     "@schematics/angular": "^11.2.5",
     "bootstrap": "^4.6.0",
     "font-awesome": "^4.7.0",
-    "google-libphonenumber": "^3.2.18",
+    "google-libphonenumber": "^3.0.9",
     "intl-tel-input": "^17.0.12",
     "intl-tel-input-ng": "^0.3.0",
+    "ng4-intl-phone": "^1.2.1",
     "ngx-bootstrap": "^6.2.0",
-    "ngx-intl-tel-input": "^3.1.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
